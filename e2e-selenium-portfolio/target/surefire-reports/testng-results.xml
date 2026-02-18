@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="16" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-18T06:05:30 CLST" name="SauceDemo E2E Test Suite" finished-at="2026-02-18T06:07:20 CLST" duration-ms="109715">
+    <groups>
+    </groups>
+    <test started-at="2026-02-18T06:05:30 CLST" name="Firefox Tests" finished-at="2026-02-18T06:07:02 CLST" duration-ms="91195">
+      <class name="com.portafolio.automation.tests.CartTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.portafolio.automation.tests.CartTests@45752059]" started-at="2026-02-18T06:06:15 CLST" name="setUp" finished-at="2026-02-18T06:06:20 CLST" duration-ms="4697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.portafolio.automation.tests.CartTests@45752059]" started-at="2026-02-18T06:06:20 CLST" name="setupTest" finished-at="2026-02-18T06:06:21 CLST" duration-ms="1254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testAddMultipleItemsToCart()[pri:0, instance:com.portafolio.automation.tests.CartTests@45752059]" started-at="2026-02-18T06:06:21 CLST" name="testAddMultipleItemsToCart" description="Agregar múltiples productos al carrito" finished-at="2026-02-18T06:06:22 CLST" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMultipleItemsToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portafolio.automation.tests.CartTests@45752059]" started-at="2026-02-18T06:06:22 CLST" name="tearDown" finished-at="2026-02-18T06:06:22 CLST" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.portafolio.automation.tests.CartTests@45752059]" started-at="2026-02-18T06:06:22 CLST" name="setUp" finished-at="2026-02-18T06:06:27 CLST" duration-ms="4795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.portafolio.automation.tests.CartTests@45752059]" started-at="2026-02-18T06:06:27 CLST" name="setupTest" finished-at="2026-02-18T06:06:28 CLST" duration-ms="1213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testAddSingleItemToCart()[pri:0, instance:com.portafolio.automation.tests.CartTests@45752059]" started-at="2026-02-18T06:06:28 CLST" name="testAddSingleItemToCart" description="Agregar un producto al carrito" finished-at="2026-02-18T06:06:29 CLST" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddSingleItemToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portafolio.automation.tests.CartTests@45752059]" started-at="2026-02-18T06:06:29 CLST" name="tearDown" finished-at="2026-02-18T06:06:30 CLST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.portafolio.automation.tests.CartTests@45752059]" started-at="2026-02-18T06:06:30 CLST" name="setUp" finished-at="2026-02-18T06:06:34 CLST" duration-ms="4271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.portafolio.automation.tests.CartTests@45752059]" started-at="2026-02-18T06:06:34 CLST" name="setupTest" finished-at="2026-02-18T06:06:35 CLST" duration-ms="1298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testEmptyCart()[pri:0, instance:com.portafolio.automation.tests.CartTests@45752059]" started-at="2026-02-18T06:06:35 CLST" name="testEmptyCart" description="Verificar carrito vacío inicialmente" finished-at="2026-02-18T06:06:46 CLST" duration-ms="10313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portafolio.automation.tests.CartTests@45752059]" started-at="2026-02-18T06:06:46 CLST" name="tearDown" finished-at="2026-02-18T06:06:47 CLST" duration-ms="1325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.portafolio.automation.tests.CartTests -->
+      <class name="com.portafolio.automation.tests.LoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.portafolio.automation.tests.LoginTests@36ebc363]" started-at="2026-02-18T06:05:30 CLST" name="setUp" finished-at="2026-02-18T06:05:42 CLST" duration-ms="11956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyCredentials()[pri:0, instance:com.portafolio.automation.tests.LoginTests@36ebc363]" started-at="2026-02-18T06:05:42 CLST" name="testEmptyCredentials" description="Verificar validación de campos vacíos" finished-at="2026-02-18T06:05:45 CLST" duration-ms="2565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portafolio.automation.tests.LoginTests@36ebc363]" started-at="2026-02-18T06:05:45 CLST" name="tearDown" finished-at="2026-02-18T06:05:47 CLST" duration-ms="2011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.portafolio.automation.tests.LoginTests@36ebc363]" started-at="2026-02-18T06:05:47 CLST" name="setUp" finished-at="2026-02-18T06:05:53 CLST" duration-ms="5546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidPassword()[pri:0, instance:com.portafolio.automation.tests.LoginTests@36ebc363]" started-at="2026-02-18T06:05:53 CLST" name="testInvalidPassword" description="Verificar login con contraseña incorrecta" finished-at="2026-02-18T06:05:54 CLST" duration-ms="1873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portafolio.automation.tests.LoginTests@36ebc363]" started-at="2026-02-18T06:05:54 CLST" name="tearDown" finished-at="2026-02-18T06:05:56 CLST" duration-ms="2024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.portafolio.automation.tests.LoginTests@36ebc363]" started-at="2026-02-18T06:05:56 CLST" name="setUp" finished-at="2026-02-18T06:06:01 CLST" duration-ms="4915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLockedOutUser()[pri:0, instance:com.portafolio.automation.tests.LoginTests@36ebc363]" started-at="2026-02-18T06:06:01 CLST" name="testLockedOutUser" description="Verificar mensaje de error con usuario bloqueado" finished-at="2026-02-18T06:06:06 CLST" duration-ms="4612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLockedOutUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portafolio.automation.tests.LoginTests@36ebc363]" started-at="2026-02-18T06:06:06 CLST" name="tearDown" finished-at="2026-02-18T06:06:07 CLST" duration-ms="1375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.portafolio.automation.tests.LoginTests@36ebc363]" started-at="2026-02-18T06:06:07 CLST" name="setUp" finished-at="2026-02-18T06:06:12 CLST" duration-ms="4629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginSuccess()[pri:0, instance:com.portafolio.automation.tests.LoginTests@36ebc363]" started-at="2026-02-18T06:06:12 CLST" name="testLoginSuccess" description="Verificar login exitoso con usuario estándar" finished-at="2026-02-18T06:06:14 CLST" duration-ms="1704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portafolio.automation.tests.LoginTests@36ebc363]" started-at="2026-02-18T06:06:14 CLST" name="tearDown" finished-at="2026-02-18T06:06:15 CLST" duration-ms="1186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.portafolio.automation.tests.LoginTests -->
+      <class name="com.portafolio.automation.tests.CheckoutTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.portafolio.automation.tests.CheckoutTests@34e9fd99]" started-at="2026-02-18T06:06:47 CLST" name="setUp" finished-at="2026-02-18T06:06:52 CLST" duration-ms="4730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.portafolio.automation.tests.CheckoutTests@34e9fd99]" started-at="2026-02-18T06:06:52 CLST" name="setupTest" finished-at="2026-02-18T06:06:54 CLST" duration-ms="2549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testCheckoutWithoutInfo()[pri:0, instance:com.portafolio.automation.tests.CheckoutTests@34e9fd99]" started-at="2026-02-18T06:06:54 CLST" name="testCheckoutWithoutInfo" description="Verificar checkout sin información personal" finished-at="2026-02-18T06:06:55 CLST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutWithoutInfo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portafolio.automation.tests.CheckoutTests@34e9fd99]" started-at="2026-02-18T06:06:55 CLST" name="tearDown" finished-at="2026-02-18T06:06:55 CLST" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.portafolio.automation.tests.CheckoutTests@34e9fd99]" started-at="2026-02-18T06:06:55 CLST" name="setUp" finished-at="2026-02-18T06:06:58 CLST" duration-ms="3197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.portafolio.automation.tests.CheckoutTests@34e9fd99]" started-at="2026-02-18T06:06:58 CLST" name="setupTest" finished-at="2026-02-18T06:07:00 CLST" duration-ms="1205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testCompleteCheckout()[pri:0, instance:com.portafolio.automation.tests.CheckoutTests@34e9fd99]" started-at="2026-02-18T06:07:00 CLST" name="testCompleteCheckout" description="Flujo completo de compra" finished-at="2026-02-18T06:07:01 CLST" duration-ms="1159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleteCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portafolio.automation.tests.CheckoutTests@34e9fd99]" started-at="2026-02-18T06:07:01 CLST" name="tearDown" finished-at="2026-02-18T06:07:02 CLST" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.portafolio.automation.tests.CheckoutTests -->
+    </test> <!-- Firefox Tests -->
+    <test started-at="2026-02-18T06:05:30 CLST" name="Chrome Tests" finished-at="2026-02-18T06:07:20 CLST" duration-ms="109715">
+      <class name="com.portafolio.automation.tests.CartTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.portafolio.automation.tests.CartTests@459e9125]" started-at="2026-02-18T06:06:15 CLST" name="setUp" finished-at="2026-02-18T06:06:19 CLST" duration-ms="3977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.portafolio.automation.tests.CartTests@459e9125]" started-at="2026-02-18T06:06:19 CLST" name="setupTest" finished-at="2026-02-18T06:06:20 CLST" duration-ms="1620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testAddMultipleItemsToCart()[pri:0, instance:com.portafolio.automation.tests.CartTests@459e9125]" started-at="2026-02-18T06:06:20 CLST" name="testAddMultipleItemsToCart" description="Agregar múltiples productos al carrito" finished-at="2026-02-18T06:06:21 CLST" duration-ms="1101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMultipleItemsToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portafolio.automation.tests.CartTests@459e9125]" started-at="2026-02-18T06:06:21 CLST" name="tearDown" finished-at="2026-02-18T06:06:23 CLST" duration-ms="1201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.portafolio.automation.tests.CartTests@459e9125]" started-at="2026-02-18T06:06:23 CLST" name="setUp" finished-at="2026-02-18T06:06:27 CLST" duration-ms="4552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.portafolio.automation.tests.CartTests@459e9125]" started-at="2026-02-18T06:06:27 CLST" name="setupTest" finished-at="2026-02-18T06:06:28 CLST" duration-ms="1125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testAddSingleItemToCart()[pri:0, instance:com.portafolio.automation.tests.CartTests@459e9125]" started-at="2026-02-18T06:06:28 CLST" name="testAddSingleItemToCart" description="Agregar un producto al carrito" finished-at="2026-02-18T06:06:29 CLST" duration-ms="709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddSingleItemToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portafolio.automation.tests.CartTests@459e9125]" started-at="2026-02-18T06:06:29 CLST" name="tearDown" finished-at="2026-02-18T06:06:30 CLST" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.portafolio.automation.tests.CartTests@459e9125]" started-at="2026-02-18T06:06:30 CLST" name="setUp" finished-at="2026-02-18T06:06:34 CLST" duration-ms="4599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.portafolio.automation.tests.CartTests@459e9125]" started-at="2026-02-18T06:06:34 CLST" name="setupTest" finished-at="2026-02-18T06:06:36 CLST" duration-ms="1703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testEmptyCart()[pri:0, instance:com.portafolio.automation.tests.CartTests@459e9125]" started-at="2026-02-18T06:06:36 CLST" name="testEmptyCart" description="Verificar carrito vacío inicialmente" finished-at="2026-02-18T06:06:46 CLST" duration-ms="10229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portafolio.automation.tests.CartTests@459e9125]" started-at="2026-02-18T06:06:46 CLST" name="tearDown" finished-at="2026-02-18T06:06:47 CLST" duration-ms="928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.portafolio.automation.tests.CartTests -->
+      <class name="com.portafolio.automation.tests.LoginTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.portafolio.automation.tests.LoginTests@36902638]" started-at="2026-02-18T06:05:30 CLST" name="setUp" finished-at="2026-02-18T06:05:43 CLST" duration-ms="12084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyCredentials()[pri:0, instance:com.portafolio.automation.tests.LoginTests@36902638]" started-at="2026-02-18T06:05:43 CLST" name="testEmptyCredentials" description="Verificar validación de campos vacíos" finished-at="2026-02-18T06:05:45 CLST" duration-ms="2386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portafolio.automation.tests.LoginTests@36902638]" started-at="2026-02-18T06:05:45 CLST" name="tearDown" finished-at="2026-02-18T06:05:47 CLST" duration-ms="2054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.portafolio.automation.tests.LoginTests@36902638]" started-at="2026-02-18T06:05:47 CLST" name="setUp" finished-at="2026-02-18T06:05:53 CLST" duration-ms="5759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidPassword()[pri:0, instance:com.portafolio.automation.tests.LoginTests@36902638]" started-at="2026-02-18T06:05:53 CLST" name="testInvalidPassword" description="Verificar login con contraseña incorrecta" finished-at="2026-02-18T06:05:55 CLST" duration-ms="2560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portafolio.automation.tests.LoginTests@36902638]" started-at="2026-02-18T06:05:55 CLST" name="tearDown" finished-at="2026-02-18T06:05:57 CLST" duration-ms="1738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.portafolio.automation.tests.LoginTests@36902638]" started-at="2026-02-18T06:05:57 CLST" name="setUp" finished-at="2026-02-18T06:06:04 CLST" duration-ms="6828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLockedOutUser()[pri:0, instance:com.portafolio.automation.tests.LoginTests@36902638]" started-at="2026-02-18T06:06:04 CLST" name="testLockedOutUser" description="Verificar mensaje de error con usuario bloqueado" finished-at="2026-02-18T06:06:06 CLST" duration-ms="1779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLockedOutUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portafolio.automation.tests.LoginTests@36902638]" started-at="2026-02-18T06:06:06 CLST" name="tearDown" finished-at="2026-02-18T06:06:07 CLST" duration-ms="1352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.portafolio.automation.tests.LoginTests@36902638]" started-at="2026-02-18T06:06:07 CLST" name="setUp" finished-at="2026-02-18T06:06:11 CLST" duration-ms="4441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginSuccess()[pri:0, instance:com.portafolio.automation.tests.LoginTests@36902638]" started-at="2026-02-18T06:06:11 CLST" name="testLoginSuccess" description="Verificar login exitoso con usuario estándar" finished-at="2026-02-18T06:06:14 CLST" duration-ms="2414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portafolio.automation.tests.LoginTests@36902638]" started-at="2026-02-18T06:06:14 CLST" name="tearDown" finished-at="2026-02-18T06:06:15 CLST" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.portafolio.automation.tests.LoginTests -->
+      <class name="com.portafolio.automation.tests.CheckoutTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.portafolio.automation.tests.CheckoutTests@14cd1699]" started-at="2026-02-18T06:06:47 CLST" name="setUp" finished-at="2026-02-18T06:06:51 CLST" duration-ms="4422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.portafolio.automation.tests.CheckoutTests@14cd1699]" started-at="2026-02-18T06:06:51 CLST" name="setupTest" finished-at="2026-02-18T06:06:54 CLST" duration-ms="2112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testCheckoutWithoutInfo()[pri:0, instance:com.portafolio.automation.tests.CheckoutTests@14cd1699]" started-at="2026-02-18T06:06:54 CLST" name="testCheckoutWithoutInfo" description="Verificar checkout sin información personal" finished-at="2026-02-18T06:07:04 CLST" duration-ms="10365" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#continue"}
+  (Session info: chrome=144.0.7559.135)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [caf81493b3e1b269316f18491db01dd1, findElement {using=id, value=continue}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.135, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\svala\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60516}, goog:processID: 20012, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60516/devtoo..., se:cdpVersion: 144.0.7559.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: caf81493b3e1b269316f18491db01dd1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#continue"}
+  (Session info: chrome=144.0.7559.135)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [caf81493b3e1b269316f18491db01dd1, findElement {using=id, value=continue}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.135, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\svala\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60516}, goog:processID: 20012, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60516/devtoo..., se:cdpVersion: 144.0.7559.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: caf81493b3e1b269316f18491db01dd1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy10.click(Unknown Source)
+at com.portafolio.automation.pages.CheckoutPage.clickContinue(CheckoutPage.java:43)
+at com.portafolio.automation.tests.CheckoutTests.testCheckoutWithoutInfo(CheckoutTests.java:52)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutWithoutInfo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portafolio.automation.tests.CheckoutTests@14cd1699]" started-at="2026-02-18T06:07:04 CLST" name="tearDown" finished-at="2026-02-18T06:07:04 CLST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.portafolio.automation.tests.CheckoutTests@14cd1699]" started-at="2026-02-18T06:07:04 CLST" name="setUp" finished-at="2026-02-18T06:07:07 CLST" duration-ms="2479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.portafolio.automation.tests.CheckoutTests@14cd1699]" started-at="2026-02-18T06:07:07 CLST" name="setupTest" finished-at="2026-02-18T06:07:08 CLST" duration-ms="1131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testCompleteCheckout()[pri:0, instance:com.portafolio.automation.tests.CheckoutTests@14cd1699]" started-at="2026-02-18T06:07:08 CLST" name="testCompleteCheckout" description="Flujo completo de compra" finished-at="2026-02-18T06:07:19 CLST" duration-ms="10749" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".summary_total_label"}
+  (Session info: chrome=144.0.7559.135)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9b0716e98c363eb605f2646ff6cc872e, findElement {using=class name, value=summary_total_label}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.135, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\svala\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51885}, goog:processID: 22700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51885/devtoo..., se:cdpVersion: 144.0.7559.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b0716e98c363eb605f2646ff6cc872e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".summary_total_label"}
+  (Session info: chrome=144.0.7559.135)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9b0716e98c363eb605f2646ff6cc872e, findElement {using=class name, value=summary_total_label}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.135, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\svala\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51885}, goog:processID: 22700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51885/devtoo..., se:cdpVersion: 144.0.7559.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b0716e98c363eb605f2646ff6cc872e
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy10.getText(Unknown Source)
+at com.portafolio.automation.pages.CheckoutPage.getTotalAmount(CheckoutPage.java:55)
+at com.portafolio.automation.tests.CheckoutTests.testCompleteCheckout(CheckoutTests.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleteCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.portafolio.automation.tests.CheckoutTests@14cd1699]" started-at="2026-02-18T06:07:19 CLST" name="tearDown" finished-at="2026-02-18T06:07:20 CLST" duration-ms="1269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.portafolio.automation.tests.CheckoutTests -->
+    </test> <!-- Chrome Tests -->
+  </suite> <!-- SauceDemo E2E Test Suite -->
+</testng-results>

@@ -1,0 +1,10 @@
+C:\Users\svala\e2e-selenium-portfolio\src\main\java\com\portafolio\automation\App.java
+C:\Users\svala\e2e-selenium-portfolio\src\main\java\com\portafolio\automation\base\BasePage.java
+C:\Users\svala\e2e-selenium-portfolio\src\main\java\com\portafolio\automation\base\BaseTest.java
+C:\Users\svala\e2e-selenium-portfolio\src\main\java\com\portafolio\automation\pages\CartPage.java
+C:\Users\svala\e2e-selenium-portfolio\src\main\java\com\portafolio\automation\pages\CheckoutPage.java
+C:\Users\svala\e2e-selenium-portfolio\src\main\java\com\portafolio\automation\pages\InventoryPage.java
+C:\Users\svala\e2e-selenium-portfolio\src\main\java\com\portafolio\automation\pages\LoginPage.java
+C:\Users\svala\e2e-selenium-portfolio\src\main\java\com\portafolio\automation\utils\ExtentReportListener.java
+C:\Users\svala\e2e-selenium-portfolio\src\main\java\com\portafolio\automation\utils\ScreenshotListener.java
+C:\Users\svala\e2e-selenium-portfolio\src\main\java\com\portafolio\automation\utils\WebDriverFactory.java

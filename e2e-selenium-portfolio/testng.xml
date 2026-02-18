@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo E2E Test Suite" parallel="tests" thread-count="2">
+
+    <listeners>
+        <listener class-name="com.portafolio.automation.utils.ExtentReportListener"/>
+    </listeners>
+    
+    <test name="Chrome Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.portafolio.automation.tests.LoginTests"/>
+            <class name="com.portafolio.automation.tests.CartTests"/>
+            <class name="com.portafolio.automation.tests.CheckoutTests"/>
+        </classes>
+    </test>
+    
+    <test name="Firefox Tests">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.portafolio.automation.tests.LoginTests"/>
+            <class name="com.portafolio.automation.tests.CartTests"/>
+            <class name="com.portafolio.automation.tests.CheckoutTests"/>
+        </classes>
+    </test>
+    
+</suite>
